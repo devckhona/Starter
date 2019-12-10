@@ -1,0 +1,360 @@
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Turnitin, LLC" />
+    <meta name="keywords" content="" /> 
+    <meta name="description" content="" />
+    <meta name="viewport" content="width = initial-scale" />
+    <meta name="viewport" content="height = initial-scale" />
+    
+<title>TurnitinUK Originality Report</title>
+
+<base href="http://www.turnitinuk.com">
+<style type="text/css">
+	
+body	{
+	color: #000;
+	background: #ddd;
+	padding: 0;
+	border: 0;
+	font: 14px Arial, Verdana, sans-serif;
+	margin: 0;
+	text-align: center;
+	}
+	
+form	{
+	padding: 0;
+	margin: 0;
+	}
+	
+p	{
+	padding: .8em 1.5em;
+	margin: 0;
+	text-align: left;
+	}
+	
+img	{
+	border: 0;
+	padding: 0;
+	}
+
+div	{
+	padding: 0;
+	border: 0;
+	text-align: left;
+	}
+	
+strong	{
+	font-weight: bold;
+	}
+	
+h2	{
+	font-size: 15px;
+	margin: 20px 0 10px 20px;
+	}
+	
+a:link, a:visited	{
+	text-decoration: underline;
+	color: #00f;
+	}
+	
+a:hover, a:active	{
+	text-decoration: underline;
+	color: #888;
+	}
+	
+img#logo	{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	}
+	
+div#container	{
+	border: 1px solid #aaa;
+	width: 770px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 10px 0;
+	}
+	
+div#top	{
+	background: #fff;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+	
+div#content	{
+	background: #fff;
+	}
+	
+#top p	{
+	padding: .3em 0 .3em 20px;
+	}
+
+#top span	{
+	padding-right: 35px;
+	}
+	
+#top p#orig	{
+	padding-top: 15px;
+	}
+	
+#orig span#score.red	{
+	border-right: 18px solid red;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.orange	{
+	border-right: 18px solid orange;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.yellow	{
+	border-right: 18px solid yellow;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.green	{
+	border-right: 18px solid green;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.blue	{
+	border-right: 18px solid blue;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+div.divider	{
+	width: 7in;
+	border: 1px dotted #888;
+	margin: auto;
+	padding: 4px 0 4px 10px;
+	font-weight: bold;
+	background: #ddd;
+	font-size: 15px;
+	}
+	
+div.links	{
+	width: 7in;
+	margin: auto;
+	}
+	
+.links div	{
+	padding: 15px 20px 15px 20px;
+	border-bottom: 1px dotted #888;
+	}
+	
+.links div#last	{
+	padding: 15px 20px 20px 20px;
+	border-bottom: 0;
+	}
+	
+div.number	{
+	float: right;
+	background: white;
+	border: 1px solid #888;
+	margin: 0 0 0 20px;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+div.number-l	{
+	float: left;
+	background: white;
+	border: 1px solid #888;
+	margin: 6px 16px 10px 0;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+.links div p	{
+	padding: .2em 1.5em .4em 0;
+	}
+	
+.links div p#mess	{
+	padding: .2em 1.5em 0 0;
+	}
+	
+div#body	{
+	line-height: 1.5em;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 20px;
+	}
+	
+#body p	{
+	color: #555;
+	padding-top: 30px;
+	line-height: 20px;
+	}
+
+	
+#body a	{
+	display: block;
+	color: red;
+	margin: 1em 3em;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 1em 1em;
+	border: 1px dotted #888;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 26px;
+	background: #FFFFE5;
+	}
+
+#body span	{
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+	}
+
+#body span.number	{
+	display: block;
+	float: right;
+	color: #000;
+	font-weight: normal;
+	border: 1px solid #888;
+	padding: 0 6px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: .9em;
+	background: #fff;
+	}
+	
+#actions	{
+	display: none;
+	}
+
+</style>
+
+
+
+</head>
+
+<body id="or_print_report">
+
+
+<div id="container">
+
+<div id="top">
+    <div id="content">
+        <!-- ######### Top Body  ##########################--> 
+        <div id="top_body">
+            <p id="title">
+            <img src="/r/build/images/814a4152b3aca062da5c4bcdcd07c82ecb_tiiuklogo.gif" id="logo" width="60">
+            TurnitinUK Originality Report
+            </p>
+                <div class="general_info">
+                    <p>
+                        <span>Gagan_Raj_Dangol_DDW_Assignmet</span>
+                        
+                        by Gagan Raj Dangol
+                        
+                    </p>
+                    <p>
+                        From Designing and Developing a Website (L4DC 21 )
+                    </p>
+                    <ul>
+                        <li>Processed on 20-Apr-2018 12:57 PM BST</li>
+                        <li>ID: 86722680</li>
+                        <li>Word Count: 1126</li>
+                    </ul>
+                </div>
+                <div class="similarity_box">
+                    <div class="overall_similarity">
+                        <div class="color_box green">&nbsp;</div>
+                        <div class="similarity_title">Similarity Index</div>
+                        <div class="similarity_percent">6%</div>
+                    </div>
+                    <div class="similarity_by_source">
+                        <div class="similarity_title">Similarity by Source</div>
+                        <dl>
+                            <dt>Internet&nbsp;Sources:</dt>
+                            <dd>5%</dd>
+                            <div class="clear"></div>
+                            <dt>Publications:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Student&nbsp;Papers:</dt>
+                            <dd>7%</dd>
+                            <div class="clear"></div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                                 
+        </div>
+        <!-- ######### END Top Body  ##########################--> 
+    </div>
+</div>
+
+<div class="divider">sources:</div>
+
+<div class="links">
+
+	<div>
+	<div class="number-l">1</div>
+	<p>4% match (student papers from 16-Apr-2018)</p>
+
+	<a style="color:red" href="/paperInfo.asp?r=94.5709292560526&svr=326&lang=en_us&oid=86624546&perc=4">Submitted to Softwarica College of IT & E-Commerce on 2018-04-16</a>
+
+	</div>
+	<div id="last">
+	<div class="number-l">2</div>
+	<p>2% match (student papers from 29-Oct-2014)</p>
+
+	<a style="color:green" href="/paperInfo.asp?r=94.5709292560526&svr=326&lang=en_us&oid=36063266&perc=2">Submitted to NCC Education on 2014-10-29</a>
+
+	</div>
+
+</div>
+
+
+
+<div class="divider">paper text:</div>
+<div id="body">
+Introduction Annual Charity Show (ACS) is a charity based in London that works on the well-being and beneficiary of all kinds of animals. They want to extend their reach throughout the UK, for which they need a new website designed and implemented on newer platform of language. As approached to me, it is my responsibility to develop them a new website that responds with newer versions of web browsers and devices. This report deals with the new website I had just developed. It deals with the design, size and contents of the website. Task 1- HTML HTML5 It is a markup language used for developing websites. It’s the 5th and the latest main version. It has various new features and is supportive for most kinds of web-browsers. Figure 1 Declaration of HTML5 Testing with Google Chrome and Microsoft Edge, the website is supported by both the browsers. 1. Google Chrome: Fig-1: Google Chrome-Home 2. MS Edge: Fig-2: MS Edge-Home The Site is supposed to be able to operate in 1024X768 resolution. It works just fine. Fig-3 :1024x768 Resolution-Home HTML Codes for HTML Forms A. Sign-in form-Join Us page Figu-4: Sign in code-Join Us page B. Calculator form-Tools page: Fig-2: Calculator code- Join Us page C. Login form-Join Us page. Fig-6: Login code- Join Us page Interfaces of HTML Forms A. Sign in form-Join Us: Fig-7: Login Form- Community Page B. Calculate form-Tools Page: Figure 3 Sign in Form in Join Us Page Fig-8: Calculate form- Tools Page C. Login Form-Join Us page: Fig-4: Login Form-Home CSS of HTML Forms: A. Sign in css-Join Us page: Fig-10: Sign in css-Join Us page B. Login css-Join Us page: Fig-11: Login css-Join Us <a href="javascript:openDSC(86624546, 2, '176');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="176" name="1" style="color:red" class="red"><span class="b-ref">1</span>page C. CSS Code of<span> Calculator </span>form in Tools page: Figure<span> 5 </span>CSS Code of textbox in Tools Page<span> Fig-12: Calculator </span>css-</a> Tools &amp; Calculators page Different Picture Formats : For this site, two formats of picture have been used: Joint Photographic Experts Group (JPEG/JPG) and Portable Network Graphics (PNG). Although there are many other formats, I’ve chose these because they compress the size but also provides better quality. Other formats also have good quality but they occupy a large file size. JPG and PNG also supports many colors that other formats don’t support. CSS3 Media Query Codes: Responsive design is made using Media Query. Fig-13: Responsive Design-M Q Task 2-CSS External CSS: An external CSS is linked to the site where all the characteristics of the contents and elements in the HTML files are define. The single CSS file includes all the character definition of all of the pages within the website. Fig-14 Linking CSS to HTML CSS Selectors: CSS selectors are one of the features of the CSS using which, a characteristic of one tag from HTML me defined in the CSS by calling its name. ? Class Selector: It is used to call a group of tags. And denoted by dot(.). ? ID Selector: It is used to call a single tag and denoted by #. ? Inheritance Selector: It is used to inherit the property of the parent tag into the child tag. ? Descendant Selector: It is used to combinedly give characteristics to two or more tags. ? Multiple Selector: It is used to select multiple tags at once. ? Pseudo Elements: It is an extra feature of CSS that lies outside the design tree. CSS Codes: Fig-146 CSS code for the site Fig-15:7 CSS code for the site Fig-16: CSS code for the site Fig-17: CSS code for the site 13 Fig-18: CSS code for the site Fig-19: CSS code for the site CSS Media Query codes: Fig-20: MQ codes <a href="javascript:openDSC(86624546, 2, '190');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="190" name="1" style="color:red" class="red"><span class="b-ref">1</span>Task 3-Test the Website and Write a Test Report<span> Web </span>-Browser<span> Test </span><span>&amp;</span><span> Site </span>Validation Browser testing is<span> a process of </span>running<span> a single </span>website<span> into </span>different<span> web </span>browsers to</a> verify if its working in all the browsers properly or not. Validation is a process of verifying the code written in CSS, HTML or other languages if it meets the standard produced by legal validators or not. It is usually W3C Validator Standard. Screenshots from Validation: ? Home Page: Fig-8: Validating Home ? CharityEvents Page: Figure 10 Validation of Charity Events Page Fig-9: Validating CharityEvents ? Fund Raising: Fig-11: Validating FundRaising ? CommunityPage: Fig-12: Validating CommunityPage ? News&amp;Reviews: Fig-13: Validatiing NewsPage 18 ? ToolsPage: Fig-14: Validating ToolsPage ? Join-Us Page: Fig-15: Validating Join-Us-Page 19 CSS-code: Fig-16: Validating CSS-Code Media-Validator: Fig-17: Mobile-validator Findings: With above measures, I found that CSS doesn’t accept any negative values in its attributes. For instance, on my site, the margin of the top of a division had a negative value which was immediately referred as an error by the validator. So, it had to be changed in a way that it is a positive value and it doesn’t harm the structure of any of my pages. Screenshots in Different browsers: 1. Google Chrome Fig-18: News &amp; Reviews page in Chrome 2. Microsoft Edge: Figure 19 News &amp; Reviews page in Edge Differentiating two browsers and Results: Both the Chrome and the Edge was no different from each other. However, there was a slight difference on the characteristic of radio button. The radio button, when clicked, in Edge animates in away that it looks as it blinks but something like this doesn’t happen in Chrome unless it is scripted to animate or have any similar characteristics. Screenshot of Homepage for devices with small screen resolution (width 500px): Figure 20 Homepage in small screen resolution Task 4- Critical Evaluation Analysis of Website: The website that ACS requested was completely and successfully designed using HTML5 and CSS. The website consists of seven pages of screen resolution 1024X768 without a horizontal bar that a user might have to scroll through to see the full content of the site. By using Media Query, the home page of the site has been made responsive to portable devices that have lower screen resolution and size. Pros and Cons <a href="javascript:openDSC(86624546, 2, '198');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="198" name="1" style="color:red" class="red"><span class="b-ref">1</span>of different multimedia file formats: a) Joint Photographic Experts Group(JPG):<span> ? Pros: </span>High compression<span> and </span>good</a> quality ? Cons: lousy behavior. b) Portable Network Graphics(PNG): ? Pros: Supports transparent images ? Cons: Larger in size. c) Graphics Interchange Format(GIF): ? Pros: Has animated behavior ? Cons: Lower picture quality Benefits of using Multimedia files in Websites ? Advantages: ‣ Adding multimedia elements to a Web page make it easier to draw in viewers. ‣ It is hard to represent a brand's image without including audio or video content to support it. ‣ People with certain disabilities finds it a lot easier to use website with multi media in it. ? Disadvantages: ‣ Images that are not handled correctly can damage a site ranking. ‣ <a href="javascript:openDSC(36063266, 2, '102');" onmouseover="doRollover(2);" onmouseout="undoRollover(2);" id="102" name="2" style="color:green" class="green"><span class="b-ref">2</span>While the days of measuring page load times on a slow, dial-up modem are over, multimedia content still takes longer to load than static content<span> ‣ More </span>the</a> multimedia, more the risk of viruses and malwares Pros and Cons of this website: ? Pros: ‣ Is attractive and eye catching. ‣ Is responsive to smaller portable devices like a smartphone. ‣ Contains everything one needs to know about ACS. ? Cons: ‣ Numerous use of multimedia can slower the site because it consumes more bandwidth. ‣ It is not completely responsive or compatible with all browsers and portable devices. ‣ People with certain disabilities might find it more difficult to use the website. . Suggestions for improvements and ideas for further developments are: ? Use of compressed multimedia files will make the site faster. ? Disable people will be able to use the website more conveniently. ? The website will respond to latest browsers and devices. Conclusion: The website that ACS requested was completely and successfully designed using HTML5 and CSS. The website consists of seven pages of screen resolution 1024X768 without a horizontal bar that a user might have to scroll through to see the full content of the site. By using Media Query, the home page of the site has been made responsive to portable devices that have lower screen resolution and size. 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 20 21 22 23 24 25 26 
+</div>
+</div>
+</body>
+</html>
